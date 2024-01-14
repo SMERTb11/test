@@ -1,0 +1,51 @@
+.timer {
+    margin: 0 auto; /* Горизонтально центрировать */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Вертикально центрировать */
+  }
+
+.container{
+    display: block;
+    text-align: center;
+}
+.btn {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btnhover {
+    background-color: #555;
+    color: #fff;
+  }
+
+.time {
+    text-align: center; /* Центрирует весь контент внутри .time */
+    min-width: 550px;
+    min-height: 150px;
+    background-color:#000;
+    color:#fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+  
+.interval {
+    display: inline-block; /* Обеспечивает, чтобы интервалы занимали необходимое пространство */
+    width: 30px; /* Отрегулируйте ширину по мере необходимости для интервалов */
+    text-align: center; /* Обеспечивает, чтобы текст внутри каждого интервала был центрирован */
+    min-height: 50px;
+    min-width: 50px;
+  }
+
+.num {
+    font-size: 50px;
+    padding: 50px;
+}
